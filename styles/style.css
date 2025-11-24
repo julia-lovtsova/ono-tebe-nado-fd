@@ -15,8 +15,8 @@
   text-decoration: none;
 }
 
-.menu__item:first-of-type  {
-   list-style-type: none;
+.menu__item:first-of-type {
+  list-style-type: none;
 }
 
 .menu__items {
@@ -34,7 +34,7 @@
 }
 
 .phone,
-.line {
+.mail {
   text-decoration: underline;
 }
 
@@ -123,7 +123,6 @@
   color: white;
   position: relative;
 }
-
 
 .lots__card__article {
   background-size: cover;
@@ -246,7 +245,7 @@
 }
 
 .footer__menu__items {
-  display: flex ;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }

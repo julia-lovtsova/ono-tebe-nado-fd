@@ -50,6 +50,7 @@
   margin-left: 188px;
   line-height: 25px;
   letter-spacing: 1px;
+  font-style: normal;
 }
 
 .phone,
@@ -268,13 +269,18 @@
 }
 
 .footer {
-  padding: 184px 52px 85px;
+  padding: 189px 52px 85px;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__addresses {
-  width: 265px;
+.footer .address {
+  margin-left: 0;
+  max-width: 240px;
+}
+
+.footer__menu {
+  margin-left: 25px;
 }
 
 .footer__menu__items {

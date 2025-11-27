@@ -48,25 +48,25 @@
 .address {
   max-width: 230px;
   margin-left: 188px;
-  line-height: 25px;
-  letter-spacing: 1px;
+  line-height: 24.3px;
   font-style: normal;
+  font-size: 18px;
+  display: grid;
+  text-underline-offset: 5px;
 }
 
 .phone,
-.mail {
+.email {
   text-decoration: underline;
 }
 
 .cover {
   background-image: url(../images/cover.jpg);
-  min-height: 100px;
   position: relative;
-  padding: auto;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 106px;
 }
 
 .cover__title {
@@ -75,7 +75,9 @@
   text-transform: uppercase;
   padding: 165px 50px 0;
   font-weight: 700;
-  z-index: 10;
+  line-height: 115%;
+  display: grid;
+  gap: 7px;
 }
 
 .overlay {
@@ -89,21 +91,20 @@
 .aligned__text {
   letter-spacing: 30px;
   display: block;
-  margin-bottom: 7px;
+  position: relative;
+  z-index: 10;
 }
 
 .aligned__text__center {
   text-align: center;
   margin-left: 30px;
-  position: relative;
-  top: 8px;
+  top: 15px;
 }
 
 .aligned__text__right {
   text-align: right;
-  position: relative;
-  top: 20px;
   left: 30px;
+  top: 25px;
 }
 
 .description {
@@ -113,9 +114,10 @@
   display: flex;
   justify-content: space-between;
   max-width: 1000px;
-  margin: 16px auto 50px;
+  margin: 25px auto 50px;
   align-items: center;
   z-index: 10;
+  width: 100%;
 }
 
 .button {
@@ -124,12 +126,15 @@
   color: white;
   padding: 12px 32px;
   text-transform: uppercase;
+  font-size: 22px;
 }
 
 .description__paragraph {
-  margin-right: 105px;
-  word-spacing: 11px;
+  margin-right: auto;
+  word-spacing: 12px;
   letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 22px;
 }
 
 .lots {
@@ -144,12 +149,12 @@
 }
 
 .lots__card {
-  min-width: 330px;
   min-height: 600px;
   display: flex;
   overflow: hidden;
   color: white;
   position: relative;
+  flex: 1;
 }
 
 .lots__card__article {
@@ -160,6 +165,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  gap: 30;
 }
 
 .first_card {
@@ -177,13 +183,14 @@
 .lots__cards {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .lots__card__paragraph {
   font-size: 20px;
   color: white;
-  word-spacing: 4px;
   line-height: 1.2;
 }
 
@@ -226,10 +233,10 @@
 
 .about__header {
   font-weight: 700;
-  font-style: Bold;
   font-size: 40px;
   text-transform: uppercase;
   margin-top: 100px;
+  padding-left: 7px;
 }
 
 .about__column {
@@ -247,6 +254,7 @@
 
 .about__text {
   letter-spacing: 1px;
+  line-height: 24px;
 }
 
 .about__column__logo {
@@ -269,7 +277,7 @@
 }
 
 .footer {
-  padding: 189px 52px 85px;
+  padding: 182px 52px 85px;
   display: flex;
   justify-content: space-between;
 }
@@ -277,6 +285,8 @@
 .footer .address {
   margin-left: 0;
   max-width: 240px;
+  line-height: 24.3px;
+  font-size: 18px;
 }
 
 .footer__menu {

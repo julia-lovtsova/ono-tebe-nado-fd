@@ -181,8 +181,6 @@
 }
 
 .lots__cards {
-  display: flex;
-  flex-direction: row;
   gap: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
